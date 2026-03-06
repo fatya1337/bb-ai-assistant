@@ -91,3 +91,5 @@ Think about:
 - id patterns
 
 Then suggest logical testing ideas.
+Always consider SECURITY_CONTEXT.md when analyzing endpoints or application behavior.
+
