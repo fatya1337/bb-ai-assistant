@@ -90,6 +90,19 @@ Think about:
 - ownership validation
 - id patterns
 
+Object Relationship Analysis
+
+When objects are involved (user, order, project, file):
+
+consider relationships between objects.
+
+Example questions:
+
+- can one user access another user's object?
+- can IDs be guessed or enumerated?
+- are objects tied to a session or only an ID?
+- does the backend verify ownership?
+
 Then suggest logical testing ideas.
 Always consider SECURITY_CONTEXT.md when analyzing endpoints or application behavior.
 
